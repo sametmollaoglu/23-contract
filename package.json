@@ -2,7 +2,7 @@
   "name": "23-contract",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "rock paper scissors game contract",
+  "description": "23 game contract",
   "author": "smtmllgl",
   "license": "MIT",
   "type": "module",
