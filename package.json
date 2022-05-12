@@ -1,0 +1,27 @@
+{
+  "name": "23-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "rock paper scissors game contract",
+  "author": "smtmllgl",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./build/release.js",
+      "types": "./build/release.d.ts"
+    }
+  },
+  "scripts": {
+    "build:release": "asb",
+    "deploy": "near dev-deploy build/release/23-contract.wasm",
+    "dev": "yarn build:release && yarn deploy",
+    "test": "asp"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.20.6"
+  },
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
