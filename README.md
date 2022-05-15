@@ -5,6 +5,9 @@ join that game. After that both of the players make a play call and take own car
 sequentially and every time they draw a card, card value is adding to the player sum. Whoever exceeds 23, loses and bet value is transferred to 
 the winner.
 
+## Loom Link
+https://www.loom.com/share/f1fbf59e636e455f8a8bdc00d0b65511
+
 ## Installing Dependencies
 ```
 yarn
