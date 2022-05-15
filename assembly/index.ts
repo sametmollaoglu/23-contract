@@ -10,7 +10,7 @@ export function startGame(): u32 {
   
   let gameClass = new game_23();
   let initiatorClass = new player();
-  initiatorClass.gameIds.push(gameClass.gameId);
+  initiatorClass.gameId=gameClass.gameId;
   gameClass.initiatorPlayer=initiatorClass;
   games.set(gameClass.gameId, gameClass);
   
@@ -38,7 +38,7 @@ export function joinGame(gameId: u32): string {
   )
 
   let guestPlayer = new player();
-  guestPlayer.gameIds.push(gameId);
+  guestPlayer.gameId=gameId;
   gameClass.guestPlayer = guestPlayer;
   gameClass.readyToStart=true;
   gameClass.initiatorPlayer.isMyTurn=true;

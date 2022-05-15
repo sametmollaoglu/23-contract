@@ -5,13 +5,12 @@ export const games = new PersistentMap<u32, game_23>("game");
 @nearBindgen
 export class player {
     playerId: string;
-    gameIds: u32[];
+    gameId: u32;
     sum: u32;
     isMyTurn: bool;
 
     constructor() {
         this.playerId= context.sender;
-        this.gameIds = [];
         this.sum= 0;
         this.isMyTurn=false;
     }
