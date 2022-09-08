@@ -6,7 +6,7 @@ sequentially and every time they draw a card, card value is adding to the player
 the winner.
 
 ## Loom Link
-https://www.loom.com/share/f1fbf59e636e455f8a8bdc00d0b65511
+https://www.loom.com/share/a1750939ea014cd99f1f67b5701eb8ca
 
 ## Installing Dependencies
 ```
